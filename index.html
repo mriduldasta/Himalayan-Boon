@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himalayan Boon - Pure Organic Products from the Himalayas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #8fb398;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #19310a 0%, #4a7c59 100%);
+        }
+        
+        .gold-text {
+            color: #d4af37;
+        }
+        
+        .forest-green-bg {
+            background-color: #1f4109;
+        }
+        
+        .gold-bg {
+            background-color: #d4af37;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .organic-pattern {
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%232d5016' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+        
+        .payment-option:hover {
+            transform: scale(1.05);
+            transition: all 0.2s ease;
+        }
+    </style>
+</head>
+<body class="organic-pattern">
+    <!-- Header -->
+    <header class="forest-green-bg text-white">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <div class="w-15 h-15 mr-3 rounded-full gold-bg flex items-center justify-center">
+                        <img src="logo.png.png" alt="Himalayan Boon Logo" class="w-11 h-11 object-contain">
+                    </div>
+                    <h1 class="text-2xl font-bold">Himalayan Boon</h1>
+                </div>
+                <nav class="hidden md:flex space-x-6">
+                    <a href="#products" class="hover:text-gold-300 transition">Products</a>
+                    <a href="#about" class="hover:text-gold-300 transition">About</a>
+                    <a href="#contact" class="hover:text-gold-300 transition">Contact</a>
+                </nav>
+                <div class="md:hidden">
+                    <button class="text-white">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <div class="max-w-3xl mx-auto">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">Pure Organic Treasure from the Himalayas</h2>
+                <p class="text-xl mb-8">Experience the authentic taste and purity of Himalayan organic products, crafted with love and tradition.</p>
+                <div class="flex justify-center space-x-4">
+                    <a href="#products" class="gold-bg text-forest-green px-8 py-3 rounded-full font-semibold hover:bg-yellow-600 transition">Shop Now</a>
+                    <a href="https://wa.me/918278793606" class="border-2 border-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-forest-green transition">
+                        <i class="fab fa-whatsapp mr-2"></i>Order on WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-forest-green mb-12">Our Premium Products</h2>
+            
+            <!-- Desi Cow Ghee -->
+            <div class="grid md:grid-cols-2 gap-12 mb-16 items-center">
+                <div class="product-card bg-gray-50 p-6 rounded-lg shadow-lg">
+<img src="ghee.png.jpg" height="200" width="300"/>
+                    <h3 class="text-2xl font-bold text-forest-green mb-2">Desi Cow Ghee</h3>
+                    <p class="text-gray-600 mb-4">Pure A2 Bilona ghee from grass-fed cows of Himachal Pradesh. Rich in nutrients and traditional Ayurvedic properties.</p>
+                    
+                    <div class="bg-yellow-50 p-4 rounded-lg mb-4">
+                        <h4 class="font-semibold text-forest-green mb-2">Pricing Options:</h4>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="text-center p-3 border border-gold rounded-lg">
+                                <p class="font-bold">500g</p>
+                                <p class="text-lg gold-text font-bold">₹799</p>
+                            </div>
+                            <div class="text-center p-3 border border-gold rounded-lg bg-gold-50">
+                                <p class="font-bold">1kg</p>
+                                <p class="text-lg gold-text font-bold">₹1599</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="space-y-2">
+                        <a href="upi://pay?pa=8278793606@pthdfc&cu=INR&tn=Desi%20Cow%20Ghee%20-%20500g" target="_blank" class="w-full bg-forest-green text-white py-3 rounded-lg font-semibold hover:bg-green-800 transition block text-center">
+                            Pay via Paytm - 500g (₹799)
+                        </a>
+                        <button onclick="orderViaWhatsApp('Desi Cow Ghee', '500g', 799)" class="w-full gold-bg text-forest-green py-3 rounded-lg font-semibold hover:bg-yellow-600 transition">
+                            Order via WhatsApp - 500g
+                        </button>
+                        <a href="upi://pay?pa=8278793606@pthdfc&cu=INR&tn=Desi%20Cow%20Ghee%20-%201kg" target="_blank" class="w-full bg-forest-green text-white py-3 rounded-lg font-semibold hover:bg-green-800 transition block text-center">
+                            Pay via Paytm - 1kg (₹1599)
+                        </a>
+                        <button onclick="orderViaWhatsApp('Desi Cow Ghee', '1kg', 1599)" class="w-full gold-bg text-forest-green py-3 rounded-lg font-semibold hover:bg-yellow-600 transition">
+                            Order via WhatsApp - 1kg
+                        </button>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-xl font-semibold text-forest-green mb-4">Benefits:</h4>
+                    <ul class="space-y-2 text-gray-900 text-lg">
+                        <li class="flex items-center"><i class="fas fa-check-circle gold-text mr-2"></i> Rich in CLA (Conjugated Linoleic Acid)</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle gold-text mr-2"></i> High smoke point for cooking</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle gold-text mr-2"></i> Boosts immunity and digestion</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle gold-text mr-2"></i> Packed with fat-soluble vitamins</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle gold-text mr-2"></i> 100% organic and chemical-free</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Gucchi Mushroom -->
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h4 class="text-xl font-semibold text-forest-green mb-4">Benefits:</h4>
+                    <ul class="space-y-2 text-gray-900 text-lg">
+                        <li class="flex items-center"><i class="fas fa-check-circle gold-text mr-2"></i> Rich in antioxidants and minerals</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle gold-text mr-2"></i> High protein content</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle gold-text mr-2"></i> Boosts immune system</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle gold-text mr-2"></i> Anti-inflammatory properties</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle gold-text mr-2"></i> Wild harvested from Himalayan forests</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle gold-text mr-2"></i> Supports cardiovascular health</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle gold-text mr-2"></i> Enhances brain function and memory</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle gold-text mr-2"></i> Rich in essential vitamins and minerals</li>
+                    </ul>
+                </div>
+                
+                <div class="product-card bg-gray-50 p-6 rounded-lg shadow-lg">
+                    <img src="product1.jpg.jpg" alt="Fresh Gucchi Mushrooms" class="w-full h-64 object-cover rounded-lg mb-4" />
+                    <h3 class="text-2xl font-bold text-forest-green mb-2">Gucchi Mushroom</h3>
+                    <p class="text-gray-600 mb-4">Rare and exotic wild mushrooms harvested from the pristine forests of the Himalayas. Known as the 'diamonds of the kitchen'.</p>
+                    
+                    <div class="bg-yellow-50 p-4 rounded-lg mb-4">
+                        <h4 class="font-semibold text-forest-green mb-2">Pricing Options:</h4>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="text-center p-3 border border-gold rounded-lg">
+                                <p class="font-bold">50g</p>
+                                <p class="text-lg gold-text font-bold">₹799</p>
+                            </div>
+                            <div class="text-center p-3 border border-gold rounded-lg bg-gold-50">
+                                <p class="font-bold">100g</p>
+                                <p class="text-lg gold-text font-bold">₹1599</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="space-y-2">
+                        <a href="upi://pay?pa=8278793606@pthdfc&cu=INR&tn=Gucchi%20Mushroom%20-%2050g" target="_blank" class="w-full bg-forest-green text-white py-3 rounded-lg font-semibold hover:bg-green-800 transition block text-center">
+                            Pay via Paytm - 50g (₹799)
+                        </a>
+                        <button onclick="orderViaWhatsApp('Gucchi Mushroom', '50g', 799)" class="w-full gold-bg text-forest-green py-3 rounded-lg font-semibold hover:bg-yellow-600 transition">
+                            Order via WhatsApp - 50g
+                        </button>
+                        <a href="upi://pay?pa=8278793606@pthdfc&cu=INR&tn=Gucchi%20Mushroom%20-%20100g" target="_blank" class="w-full bg-forest-green text-white py-3 rounded-lg font-semibold hover:bg-green-800 transition block text-center">
+                            Pay via Paytm - 100g (₹1599)
+                        </a>
+                        <button onclick="orderViaWhatsApp('Gucchi Mushroom', '100g', 1599)" class="w-full gold-bg text-forest-green py-3 rounded-lg font-semibold hover:bg-yellow-600 transition">
+                            Order via WhatsApp - 100g
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl font-bold text-forest-green mb-8">Why Choose Himalayan Boon?</h2>
+                
+                <div class="grid md:grid-cols-3 gap-8 mb-12">
+                    <div class="text-center p-6 bg-white rounded-lg shadow-md">
+                        <div class="w-16 h-16 gold-bg rounded-full mx-auto mb-4 flex items-center justify-center">
+                            <i class="fas fa-leaf text-white text-2xl"></i>
+                        </div>
+                        <h4 class="font-semibold text-forest-green mb-2">100% Organic</h4>
+                        <p class="text-gray-600">Pure, chemical-free products from the pristine Himalayas</p>
+                    </div>
+                    
+                    <div class="text-center p-6 bg-white rounded-lg shadow-md">
+                        <div class="w-16 h-16 gold-bg rounded-full mx-auto mb-4 flex items-center justify-center">
+                            <i class="fas fa-hands-helping text-white text-2xl"></i>
+                        </div>
+                        <h4 class="font-semibold text-forest-green mb-2">Direct from Source</h4>
+                        <p class="text-gray-600">Supporting local farmers and sustainable practices</p>
+                    </div>
+                    
+                    <div class="text-center p-6 bg-white rounded-lg shadow-md">
+                        <div class="w-16 h-16 gold-bg rounded-full mx-auto mb-4 flex items-center justify-center">
+                            <i class="fas fa-truck text-white text-2xl"></i>
+                        </div>
+                        <h4 class="font-semibold text-forest-green mb-2">Free Shipping</h4>
+                        <p class="text-gray-600">Across India with secure packaging</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment & Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-forest-green mb-12">Easy Ordering Options</h2>
+            
+            <div class="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+                <!-- WhatsApp Ordering -->
+                <div class="text-center p-8 bg-green-50 rounded-lg">
+                    <div class="w-20 h-20 bg-green-600 rounded-full mx-auto mb-6 flex items-center justify-center">
+                        <i class="fab fa-whatsapp text-white text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-forest-green mb-4">Order via WhatsApp</h3>
+                    <p class="text-gray-600 mb-6">Simply message us on WhatsApp with your order details</p>
+                    <a href="https://wa.me/918278793606" target="_blank" rel="noopener noreferrer" class="inline-block bg-green-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-green-700 transition">
+                        <i class="fab fa-whatsapp mr-2"></i>Message on WhatsApp
+                    </a>
+                </div>
+
+                <!-- Payment Options -->
+                <div class="text-center p-8 bg-yellow-50 rounded-lg">
+                    <div class="w-20 h-20 gold-bg rounded-full mx-auto mb-6 flex items-center justify-center">
+                        <i class="fas fa-credit-card text-white text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-forest-green mb-4">Secure Payments</h3>
+                    <p class="text-gray-600 mb-6">Multiple payment options available</p>
+                    
+                    <div class="grid grid-cols-2 gap-4 mb-6">
+                        <div class="payment-option bg-white p-3 rounded-lg shadow-sm">
+                            <i class="fab fa-paypal text-blue-600 text-2xl"></i>
+                            <p class="text-sm mt-2">PayPal</p>
+                        </div>
+                        <a href="upi://pay?pa=8278793606@paytm&pn=HimalayanBoon&cu=INR" target="_blank">
+  <div class="payment-option bg-white p-3 rounded-lg shadow-sm cursor-pointer hover:shadow-md transition">
+    <div class="text-blue-800 font-bold text-lg">Paytm</div>
+    <p class="text-sm mt-2">UPI/Banking</p>
+  </div>
+</a>
+
+                    </div>
+                    
+                    <a href="https://wa.me/918278793606" target="_blank" rel="noopener noreferrer" class="inline-block gold-bg text-forest-green px-8 py-3 rounded-full font-semibold hover:bg-yellow-600 transition">
+                        Contact for Payments
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="forest-green-bg text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h4 class="text-xl font-semibold mb-4">Himalayan Boon</h4>
+                    <p class="text-gray-300">Bringing the pure essence of the Himalayas to your doorstep.</p>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Info</h4>
+                    <p class="text-gray-300 mb-2"><i class="fas fa-phone gold-text mr-2"></i> +91 8278793606</p>
+                    <p class="text-gray-300"><i class="fab fa-whatsapp gold-text mr-2"></i> WhatsApp Available</p>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Products</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:text-gold-300">Desi Cow Ghee</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-gold-300">Gucchi Mushroom</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-300 hover:text-gold-300 text-xl"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-gray-300 hover:text-gold-300 text-xl"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-300 hover:text-gold-300 text-xl"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-600 mt-8 pt-8 text-center text-gray-300">
+                <p>&copy; 2024 Himalayan Boon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // WhatsApp order function
+        function orderViaWhatsApp(product, quantity, price) {
+            const message = `Hello Himalayan Boon! I would like to order:\n\nProduct: ${product}\nQuantity: ${quantity}\nPrice: ₹${price}\n\nPlease guide me through the order process.`;
+            window.open(`https://wa.me/918278793606?text=${encodeURIComponent(message)}`, '_blank', 'noopener,noreferrer');
+        }
+        
+        // Initialize product details
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Himalayan Boon website loaded successfully');
+        });
+    </script>
+</body>
+</html>
+
